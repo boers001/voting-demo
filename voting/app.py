@@ -1,4 +1,4 @@
-from flask import Flask
+
 from flask import render_template
 from flask import request
 from flask import make_response
@@ -9,8 +9,8 @@ import logging
 import signal
 import sys
 
-optionA = "Futbol"
-optionB = "Soccer"
+optionA = "Cat"
+optionB = "Dog"
 name = optionA + " VS " + optionB
 
 redis = Redis(host="redis", db=0)
